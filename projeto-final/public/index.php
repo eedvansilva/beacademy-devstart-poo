@@ -31,7 +31,7 @@ function createRoute(string $controllerName, string $methodName)
 $routes = [
 
     '/' => createRoute(IndexController::class, 'indexAction'),
-    '/produtos' => createRoute(ProductController::class, 'listaAction'),
+    '/produtos' => createRoute(ProductController::class, 'listAction'),
     '/produtos/novo' => createRoute(ProductController::class, 'addAction'),
 
 ];
